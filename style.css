@@ -1,0 +1,16 @@
+body {
+  scroll-behavior: smooth;
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  z-index: 999;
+}
+
+[data-bs-theme="dark"] {
+  background-color: #121212;
+  color: #e0e0e0;
+}
